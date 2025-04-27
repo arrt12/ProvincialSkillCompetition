@@ -7,6 +7,7 @@ using UnityEngine;
 /// <typeparam name="T">MonoBehaviour를 상속받는 타입</typeparam>
 public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 {
+    //Test
     [Header("Singleton Instance")]
     public static T Instance;
 

@@ -75,7 +75,7 @@ public class BagManger : Singleton<BagManger>
             slot[i].GetComponent<Image>().sprite = sprite;
         }
     }
-
+  
     /// <summary>
     /// 모든 슬롯의 이미지를 resetSprite로 초기화
     /// </summary>

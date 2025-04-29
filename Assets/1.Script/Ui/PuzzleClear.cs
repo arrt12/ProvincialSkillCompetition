@@ -34,7 +34,7 @@ public class PuzzleClear : MonoBehaviour
     private void CheckClear(Action action)
     {
         if (IsClear())
-            action.Invoke();
+            action?.Invoke();
     }
 
     /// <summary>

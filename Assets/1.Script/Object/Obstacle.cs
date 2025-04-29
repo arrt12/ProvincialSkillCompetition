@@ -12,6 +12,7 @@ public abstract class Obstacle : MonoBehaviour
     #endregion
 
     #region Unity Callbacks
+
     private void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag("Player"))
